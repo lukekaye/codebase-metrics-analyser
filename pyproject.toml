@@ -1,0 +1,19 @@
+[project]
+name = "codebase-metrics-analyser"
+version = "0.1.0"
+description = ""
+authors = [ {name="Luke Kaye"} ]
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "plotly==6.3.1",
+    "numpy==2.2.6",
+    "pandas==2.3.3"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "codebase_metrics_analyser" }]
